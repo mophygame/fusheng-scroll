@@ -1,0 +1,10 @@
+{
+  "name": "fusheng-scroll-otome",
+  "version": "0.1.0",
+  "private": true,
+  "description": "古風乙女遊戲《浮生卷》序章互動原型",
+  "scripts": {
+    "start": "node server.mjs",
+    "preview": "node server.mjs"
+  }
+}

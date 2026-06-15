@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#07090d" />
+    <meta name="description" content="古風乙女遊戲《浮生卷》序章互動原型" />
+    <title>浮生卷 | 前世今生乙女遊戲</title>
+    <link rel="preload" href="./assets/images/title-city.webp" as="image" />
+    <link rel="preload" href="./assets/images/title.webp" as="image" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main id="game" aria-live="polite">
+      <div id="scene" class="scene scene-title">
+        <div class="scene-bg" aria-hidden="true"></div>
+        <div class="vignette" aria-hidden="true"></div>
+        <div id="embers" class="embers" aria-hidden="true"></div>
+
+        <header class="game-hud">
+          <button id="sound-toggle" class="icon-button" type="button" aria-label="切換音效">
+            <span class="sound-on">聲</span>
+            <span class="sound-off">靜</span>
+          </button>
+        </header>
+
+        <section id="title-screen" class="screen title-screen">
+          <p class="eyebrow">五卷舊夢 · 一世重逢</p>
+          <h1 class="game-title">
+            <img src="./assets/images/title.webp" alt="浮生卷" />
+          </h1>
+          <div class="title-rule"><i></i><b>如 沐 墨 眠 x Touchie</b><i></i></div>
+          <p class="title-copy">命簿已開，你可還記得故人？</p>
+          <button id="enter-button" class="enter-button" type="button">
+            <span>入 卷</span>
+            <small>ENTER THE STORY</small>
+          </button>
+          <p class="headphone-note">建議開啟聲音，獲得完整體驗</p>
+        </section>
+
+        <section id="story-screen" class="screen story-screen" hidden>
+          <div id="chapter-card" class="chapter-card">
+            <span>序 · 章</span>
+            <h2>不見書肆</h2>
+            <p>有人賣書，也有人賣前塵。</p>
+          </div>
+
+          <div id="shopkeeper" class="shopkeeper" aria-hidden="true">
+            <div class="portrait-halo"></div>
+            <div class="portrait-silhouette">
+              <span class="hairpin"></span>
+              <span class="shoulder"></span>
+            </div>
+            <p>書肆主人</p>
+          </div>
+
+          <div id="dialogue-panel" class="dialogue-panel" hidden>
+            <div class="speaker-row">
+              <strong id="speaker-name">旁白</strong>
+              <span id="progress-mark">01 / 06</span>
+            </div>
+            <p id="dialogue-text"></p>
+            <button id="dialogue-next" class="dialogue-next" type="button" aria-label="繼續對話">
+              <span>繼續</span><i></i>
+            </button>
+          </div>
+
+          <div id="scroll-select" class="scroll-select" hidden>
+            <header>
+              <p>擇一卷，赴一場前世之約</p>
+              <h2>五 卷 命 書</h2>
+            </header>
+            <div id="scroll-grid" class="scroll-grid"></div>
+          </div>
+
+          <div id="route-teaser" class="route-teaser" hidden>
+            <p id="route-era"></p>
+            <h2 id="route-title"></h2>
+            <div class="route-seal" id="route-seal"></div>
+            <p id="route-line"></p>
+            <button id="return-button" class="ghost-button" type="button">重選書卷</button>
+          </div>
+        </section>
+
+        <div id="transition" class="transition" aria-hidden="true">
+          <div class="ink ink-a"></div>
+          <div class="ink ink-b"></div>
+          <span>浮生一夢</span>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./src/game.js"></script>
+  </body>
+</html>
