@@ -955,16 +955,14 @@ button:focus-visible {
   background: rgba(93, 57, 30, 0.36);
 }
 
-.reader-divider b {
-  display: grid;
-  width: 46px;
-  height: 46px;
-  border: 2px solid #8f342c;
-  color: #8f342c;
-  font-size: 18px;
-  font-weight: 400;
-  transform: rotate(-4deg);
-  place-items: center;
+.reader-seal {
+  display: block;
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  object-fit: contain;
+  filter: saturate(0.9) contrast(1.08);
+  transform: rotate(-3deg);
 }
 
 .character-identities {
@@ -1234,12 +1232,11 @@ button:focus-visible {
 }
 
 .letter-signature {
-  padding: 11px 8px;
-  border: 2px solid #963b31;
-  color: #963b31;
-  font-size: 12px;
-  letter-spacing: 0.25em;
-  writing-mode: vertical-rl;
+  display: block;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  filter: saturate(0.9) contrast(1.08);
   transform: rotate(-4deg);
 }
 
@@ -1534,6 +1531,11 @@ button:focus-visible {
     bottom: 30px;
     left: 35px;
     gap: 8px;
+  }
+
+  .letter-signature {
+    width: 52px;
+    height: 52px;
   }
 
   #letter-wish,

@@ -47,11 +47,11 @@ const chapterDialogue = [
 ];
 
 const routes = [
-  { id: "zhaoxue", glyph: "燈", title: "火闌珊", name: "魏諍", era: "前世 · 大封十年", role: "封文帝", modernRole: "雜貨店老闆", ancientRole: "封文帝", seal: "守", portraitTone: "#27313d", tone: "linear-gradient(145deg, #27313d, #12171e)", line: "萬里江山與你，他從來沒有選對過。這一次，他說要重寫結局", background: "今生的魏諍是習慣看淡一切的雜貨店老闆，寡言冷靜，從不相信夢境。直到你出現後，他開始反覆夢見一座雪中的孤城，以及一封始終沒有送出的訣別書。", letter: "若此去再無歸期，願妳忘了城外的雪，也忘了我。只是若有來世，請容我先認出妳一次。", wish: "願與卿共看霜雪消融。" },
-  { id: "fenxin", glyph: "晝", title: "行夜已", name: "上官映雪", era: "前世 · 赤京之變", role: "褚晏時", modernRole: "街頭藝術家", ancientRole: "上官皇后", seal: "業", portraitTone: "#592a21", tone: "linear-gradient(145deg, #4a211d, #160e0d)", line: "他曾以一城風雪，換你平安離去。今生再見，卻唯獨不記得你。", background: "裴燼掌管龐大的家族企業，行事強勢，從不容許任何事脫離掌控。前世他坐擁天下，卻在權力與你之間做錯了選擇；今生所有看似偶然的相遇，其實都是他精心安排的重逢。", letter: "江山曾是朕不能放手之物，後來才明白，真正失去的從來不是王座。這一世，換我走向妳。", wish: "願以江山為聘，只換卿回眸。" },
-  { id: "tingyue", glyph: "餘", title: "罪成判", name: "魏猙", era: "前世 · 大封十年", role: "黃奕澤", modernRole: "", ancientRole: "封文帝", seal: "念", portraitTone: "#294644", tone: "linear-gradient(145deg, #263d3b, #101918)", line: "你忘了月下那一曲，他卻在每個輪迴，都彈到天明。", background: "顧聽瀾修復古琴，也修補被時間遺忘的聲音。他溫柔克制，總能在你開口前察覺情緒。那首無名古曲是他跨越輪迴留下的暗號，只等你再次聽懂最後一個音。", letter: "曲有終時，思念卻沒有。若妳忘了我，便循著月色來，我會把未完的那一曲重新彈給妳聽。", wish: "願得與卿共賞春風。" },
-  { id: "wuxiang", glyph: "燼", title: "然後星", name: "霍驍", era: "前世 · 司天秘聞", role: "神秘國師", modernRole: "心理側寫師", ancientRole: "司天監國師", seal: "謎", portraitTone: "#403047", tone: "linear-gradient(145deg, #33263d, #151019)", line: "他替天下人算盡命數，卻把你的名字，藏在無人能解的卦中。", background: "謝無妄擅長看穿謊言，卻從不談自己的過去。他以理性分析所有命運般的巧合，只有面對你時，冷靜的判斷總會出現裂縫。前世他竄改天命救你，也因此被抹去了姓名。", letter: "我曾替眾生問天，卻不敢問妳的歸期。若命數仍不肯成全，我便再逆它一次。", wish: "願逆天命，護卿一世無憂。" },
-  { id: "shanhe", glyph: "絮", title: "果如執", name: "疾風", era: "前世 · 仙門舊約", role: "清冷劍尊", modernRole: "文物鑑定師", ancientRole: "玄門劍尊", seal: "契", portraitTone: "#38494d", tone: "linear-gradient(145deg, #334044, #101718)", line: "斬斷情絲那日，他的劍沒有回鞘。千年後，你成了他唯一的心魔。", background: "凌越任職於博物館，專門鑑定來歷不明的古劍。他疏離自持，對所有人保持界線，卻在碰觸你帶來的殘劍時失去平靜。那柄劍曾斬斷誓約，也封存著他千年未說出口的答案。", letter: "世人皆道我斬斷情絲，只有我知道，那一劍斬去的是退路。餘下千年，皆是等妳。", wish: "願與卿同歸山河暮色。" },
+  { id: "zhaoxue", glyph: "燈", title: "火闌珊", name: "魏諍", era: "前世 · 帝業遺錄", role: "黃奕澤", modernRole: "雜貨店老闆", ancientRole: "封文帝", seal: "燈", portraitTone: "#27313d", tone: "linear-gradient(145deg, #27313d, #12171e)", line: "贈爾之鈴鐺，一步一響，一步一嚮。", background: "朕這一生，為江山、為百姓，可當朕第一眼見到妳時，才恍然，原來朕想要的是與妳白頭偕老，執子之手。\r\n\r\n「若來世，不復相見」\r\n是朕用盡力氣給妳最後的祝福。", letter: "信件內容。", wish: "吾願以吾名起誓，換汝一生平安。" },
+  { id: "fenxin", glyph: "晝", title: "行夜已", name: "上官映雪", era: "前世 · 玉階殘雪", role: "褚晏時", modernRole: "街頭藝術家", ancientRole: "上官皇后", seal: "晝", portraitTone: "#592a21", tone: "linear-gradient(145deg, #4a211d, #160e0d)", line: "他曾以一城風雪，換你平安離去。今生再見，卻唯獨不記得你。", background: "裴燼掌管龐大的家族企業，行事強勢，從不容許任何事脫離掌控。前世他坐擁天下，卻在權力與你之間做錯了選擇；今生所有看似偶然的相遇，其實都是他精心安排的重逢。", letter: "信件內容。", wish: "願以江山為聘，只換卿回眸。" },
+  { id: "tingyue", glyph: "餘", title: "罪成判", name: "魏猙", era: "前世 · 懿德秘錄", role: "白霽", modernRole: "百貨公司美妝頂級銷售", ancientRole: "懿德殿掌事太監", seal: "餘", portraitTone: "#294644", tone: "linear-gradient(145deg, #263d3b, #101918)", line: "你我這一生，禍福相倚，事事不由己，若還有來世，吾希望吾還是在後院讀著洛神賦的魏猙。", background: "前世與今生，我所追求的是隨心所欲，能與相愛之人相守、鬥蛐蛐、觀戲曲。\r\n可造化弄人，竟讓我成了這般連自己都認不出的鬼樣子。\r\n這一世，我的死不是遺憾，而是我終於能為自己選擇一次，選擇留在那個被稱為藝術之都的起源。", letter: "信件內容。", wish: "逝於我此生所熱愛的美裡。" },
+  { id: "wuxiang", glyph: "燼", title: "然後星", name: "霍驍", era: "前世 · 烽煙紀略", role: "祁烈", modernRole: "武打演員替身", ancientRole: "玄甲將軍", seal: "燼", portraitTone: "#403047", tone: "linear-gradient(145deg, #33263d, #151019)", line: "他替天下人算盡命數，卻把你的名字，藏在無人能解的卦中。", background: "謝無妄擅長看穿謊言，卻從不談自己的過去。他以理性分析所有命運般的巧合，只有面對你時，冷靜的判斷總會出現裂縫。前世他竄改天命救你，也因此被抹去了姓名。", letter: "信件內容", wish: "願逆天命，護卿一世無憂。" },
+  { id: "shanhe", glyph: "絮", title: "果如執", name: "疾風", era: "前世 · 鐵騎殘卷", role: "馬唯冀", modernRole: "馬術教練", ancientRole: "寶馬", seal: "絮", portraitTone: "#38494d", tone: "linear-gradient(145deg, #334044, #101718)", line: "本馬這一生，斬昏君，平邊疆，馳騁沙場戰八方\r\n也算半個皇帝\r\n但居然折在這死戀愛腦狗皇帝手上\r\n我就問！殉情就殉情，拖著我幹啥？\r\n得，怕是黃泉路你倆嘮嗑會腳酸是吧？", background: "本馬呼籲\r\n騎馬不徇情，要死自己死\r\n請遵守交通規則\r\n\r\n他馬的\r\n咦ㄩ～～～（馬叫聲）", letter: "信件內容", wish: "願與卿遵守交通規則。" },
 ];
 
 class AudioDirector {
@@ -268,7 +268,6 @@ class OtomeGame {
       this.el.letterText.textContent = this.selectedRoute.letter;
       this.el.letterWish.textContent = this.selectedRoute.wish;
       this.el.letterAuthorName.textContent = this.selectedRoute.name;
-      this.el.letterSignature.textContent = this.selectedRoute.seal;
       this.el.loveLetter.hidden = false;
       this.audio.reveal();
     });
@@ -454,9 +453,13 @@ class OtomeGame {
     this.audio.reveal();
     this.el.reader.hidden = false;
     this.el.loveLetter.hidden = true;
-    this.el.readerBookTitle.textContent = `${route.title} · ${route.era}`;
+    this.el.readerBookTitle.textContent = `${route.glyph}${route.title} • ${route.era} [${route.role}] `;
     this.el.readerName.textContent = route.name;
-    this.el.readerSeal.textContent = route.seal;
+    const sealImagePath = `./assets/images/用印-${encodeURIComponent(route.name)}.webp`;
+    this.el.readerSeal.src = sealImagePath;
+    this.el.readerSeal.alt = `${route.name}用印`;
+    this.el.letterSignature.src = sealImagePath;
+    this.el.letterSignature.alt = `${route.name}情箋用印`;
     this.el.readerModernRole.textContent = route.modernRole;
     this.el.readerAncientRole.textContent = route.ancientRole;
     this.el.readerLine.textContent = route.line;
