@@ -10,6 +10,8 @@ const types = {
   ".html": "text/html; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
+  ".mp3": "audio/mpeg",
+  ".mp4": "video/mp4",
   ".png": "image/png",
   ".jpg": "image/jpeg",
   ".webp": "image/webp",
